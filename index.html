@@ -15,39 +15,50 @@
             <h1 class="display-4">fern & fig</h1>
              <h3>ONLINE PLANT STORE</h3>
              <p class="lead">Find the plant that's right for you.</p>
+             <img id="cartImage" src="assets/images/add_to_cart.png" onclick="clickCart">
+             <h2 id="itemCounter">0</h2>
+             <p id="orderTotal"></p>
+             <p id="shippingTotal"></p>
             </div>
         </div>
         <br>
-        <div class="card" style="width: 18rem;">
+        <div class="card product" style="width: 18rem;">
             <img class="card-img-top" src="..." alt="Card image cap">
             <div class="card-body">
               <h5 class="card-title">Chinese Money Plant</h5>
               <p class="card-title">Pilea Peperomioide</p>
               <p class="card-text">$12.00</p>
-              <a href="#" class="btn btn-dark">Go somewhere</a>
+              <a href="#" class="btn btn-dark" onclick="addToCart(chineseMoneyPlant)">Add to Cart</a>
             </div>
           </div>
           <br>
 
-          <div class="card" style="width: 18rem;">
+          <div class="card product" style="width: 18rem;">
             <img class="card-img-top" src="..." alt="Card image cap">
             <div class="card-body">
               <h5 class="card-title">Cheese Plant</h5>
               <p class="card-title">Monstera adansonii</p>
               <p class="card-text">$12.00</p>
-              <a href="#" class="btn btn-dark">Go somewhere</a>
+              <a href="#" class="btn btn-dark" onclick="addToCart(cheesePlant)">Add to Cart</a>
             </div>
           </div>
           <br>
 
-          <div class="card" style="width: 18rem;">
+          <div class="card product" style="width: 18rem;">
             <img class="card-img-top" src="..." alt="Card image cap">
             <div class="card-body">
               <h5 class="card-title">Aloe Vera</h5>
               <p class="card-text">$14.00</p>
-              <a href="#" class="btn btn-dark">Go somewhere</a>
+              <a href="#" class="btn btn-dark" onclick="addToCart(aloeVera)">Add to Cart</a>
             </div>
           </div>
+
+          <div class="container">
+            <div class="item">About Us</div>
+            <div class="item">Contact</div>
+          </div>
+
+          <script src="script.js"></script>
 
         
 
