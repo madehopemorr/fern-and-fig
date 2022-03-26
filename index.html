@@ -11,17 +11,26 @@
 </head>
 <body>
         <div class="jumbotron jumbotron-fluid">
-         <div class="container">
+         <div class="container-fluid">
+           <div class="row">
+             <div class="col">
             <h1 class="display-4">fern & fig</h1>
              <h3>ONLINE PLANT STORE</h3>
              <p class="lead">Find the plant that's right for you.</p>
+             <div class="col">
              <img id="cartImage" src="assets/images/cart_click.png" onclick="clickCart()">
              <h2 id="itemCounter">0</h2>
              <p id="orderTotal"></p>
              <p id="shippingTotal"></p>
             </div>
+            </div>
+          </div>
         </div>
+      </div>
         <br>
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col">
         <div class="card product" style="width: 18rem;">
             <img class="card-img-top" src="assets/images/chinese_money_plant.jpeg" alt="Card image cap">
             <div class="card-body">
@@ -31,8 +40,9 @@
               <a href="#" class="btn btn-dark" onclick="addToCart(chineseMoneyPlant)">Add to Cart</a>
             </div>
           </div>
+        </div>
           <br>
-
+          <div class="col">
           <div class="card product" style="width: 18rem;">
             <img class="card-img-top" src="assets/images/cheese_plant.jpeg" alt="Card image cap">
             <div class="card-body">
@@ -42,8 +52,9 @@
               <a href="#" class="btn btn-dark" onclick="addToCart(cheesePlant)">Add to Cart</a>
             </div>
           </div>
+        </div>
           <br>
-
+          <div class="col">
           <div class="card product" style="width: 18rem;">
             <img class="card-img-top" src="assets/images/aloe_vera.jpeg" alt="Card image cap">
             <div class="card-body">
@@ -52,6 +63,9 @@
               <a href="#" class="btn btn-dark" onclick="addToCart(aloeVera)">Add to Cart</a>
             </div>
           </div>
+        </div>
+        </div>
+      </div>
 
           <div class="container">
             <div class="item">About Us</div>
