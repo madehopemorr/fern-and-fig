@@ -8,3 +8,10 @@
     right: 56px;
     top: 0px;
 }
+
+#cartImage {
+    position: absolute;
+    right: 16px;
+    top: 16px;
+
+}
